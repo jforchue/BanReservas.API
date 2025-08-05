@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanReservas.API", "BanReservas.API.csproj", "{8CE007DE-2F7B-4615-B1AB-4F12A4CC05D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanReservas.API.Call", "..\BanReservas.API.Call\BanReservas.API.Call.csproj", "{BFE2EE27-E083-4314-915B-9AF8C2F5B372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE007DE-2F7B-4615-B1AB-4F12A4CC05D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE007DE-2F7B-4615-B1AB-4F12A4CC05D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE007DE-2F7B-4615-B1AB-4F12A4CC05D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE007DE-2F7B-4615-B1AB-4F12A4CC05D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE2EE27-E083-4314-915B-9AF8C2F5B372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE2EE27-E083-4314-915B-9AF8C2F5B372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE2EE27-E083-4314-915B-9AF8C2F5B372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE2EE27-E083-4314-915B-9AF8C2F5B372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FE665AF-A180-46F5-991A-649C243A775B}
+	EndGlobalSection
+EndGlobal

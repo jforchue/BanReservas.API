@@ -1,0 +1,37 @@
+@BanReservas.API_HostAddress = http://localhost:5063
+
+POST {{BanReservas.API_HostAddress}}/api/api2/rate
+Accept: application/xml
+Content-Type: application/xml
+
+<XML>
+	<From>string</From>
+	<To>string</To>
+	<Amount>10</Amount>
+</XML>
+
+###
+
+POST {{BanReservas.API_HostAddress}}/api/api1/rate
+Accept: application/json
+Content-Type: application/json
+
+{
+  "From": "USD",
+  "To": "EUR",
+  "Amount": 5000
+}
+
+###
+
+POST {{BanReservas.API_HostAddress}}/api/exchange/api3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "sourceCurrency": "USD",
+  "targetCurrency": "EUR",
+  "quantity": 5000
+}
+
+###
